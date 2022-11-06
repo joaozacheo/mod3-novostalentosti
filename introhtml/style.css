@@ -1,0 +1,20 @@
+/*RGB - RED - GREEN - BLUE*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: lightslategray;
+    color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    size: 10px 10px;
+}
+
+a{
+    text-decoration: none;
+    color: beige;
+}

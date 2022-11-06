@@ -1,0 +1,29 @@
+body{
+    background-color: cornflowerblue;
+}
+
+h2, p, em{
+    font-size: 15px;
+}
+
+p{
+    /*font-family: "Verdana";*/
+    /*font-family: 'Verdana';*/
+    font-family: Verdana;
+}
+
+H2{
+    border: 1px SOLID red;
+    border-radius: 5px;
+    /*border-width: 5px;
+    border-width: 5px 10px 3px 4px;
+    border-width: 5px 10px;*/
+    border-width: 5px 10px 1px;
+    border-top: 5px;
+    border-right: 10px;
+    border-bottom: 3px;
+    border-left: 4px;
+    border-color: black;
+    border-bottom-style: groove;
+    border-left-style: dashed;
+}

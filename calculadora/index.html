@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="titulo">CALCULADORA</h1>
+            <input type="text" class="screen" id="tela">
+            <div class="numeros">
+                <button class="sete" id="numero" onclick="numero(7)">7</button>
+                <button class="oito" id="numero" onclick="numero(8)">8</button>
+                <button class="nove" id="numero" onclick="numero(9)">9</button>
+                <button class="quatro" id="numero" onclick="numero(4)">4</button>
+                <button class="cinco" id="numero" onclick="numero(5)">5</button>
+                <button class="seis" id="numero" onclick="numero(6)">6</button>
+                <button class="um" id="numero" onclick="numero(1)">1</button>
+                <button class="dois" id="numero" onclick="numero(2)">2</button>
+                <button class="tres" id="numero" onclick="numero(3)">3</button>
+                <button class="zero" id="numero" onclick="numero(0)">0</button>
+                <button class="ponto" onclick="ponto()">.</button>
+                <button class="erase" onclick="apagar()"></button>
+            </div>
+            <div class="operadores">
+                <button class="soma" onclick="soma()">+</button>
+                <button class="subtracao" onclick="subtracao()">-</button>
+                <button class="multi" onclick="multi()">x</button>
+                <button class="divisao" onclick="divisao()">/</button>
+                <button class="equals" id="botaoIgual" onclick="igual()">=</button>
+                <button class="delete" onclick="del()">DEL</button>
+            </div>
+        </div>
+        <p class="creditos">Made by Jota Zacheo</p>
+        <script src="script.js"></script>
+    </body>
+</html>

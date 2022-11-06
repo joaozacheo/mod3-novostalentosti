@@ -1,0 +1,173 @@
+body {
+    max-width: 970px;
+    margin: auto;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.titulo {
+    font-size: 2.5rem;
+}
+
+.insert {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+label {
+    margin-right: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+input {
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(224, 224, 224);
+    padding: 4px 10px 3px 10px;
+    width: 12rem;
+}
+
+input:hover {
+    background-color: rgb(213, 213, 213);
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    padding: 6px 12px;
+    margin: 1px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.btn-insert {
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+.btn-insert:hover {
+    background-color: #0b5ed7;
+    cursor: pointer;
+}
+
+.btn-cancel {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.btn-cancel:hover {
+    background-color: #bb2d3b;
+    cursor: pointer;
+}
+
+.no-itens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(224, 224, 224);
+    border-radius: 12px;
+    padding: 20px 10px;
+    color: rgb(136, 136, 136);
+}
+
+.title-no-itens {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.text-no-itens {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.deleted {
+    display: none;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    counter-reset: section;
+}
+
+#line {
+    display: flex;
+    height: 36px;
+    align-items: center;
+    padding: 8px;
+}
+
+#line:before {
+    counter-increment: section;
+    content: counter(section) ".";
+    margin-right: 6rem;
+}
+
+/*#line {
+    display: flex;
+    height: 36px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}*/
+
+#line:hover {
+    background-color: rgb(224, 224, 224);
+    border-radius: 10px;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.buttons {
+    display: flex;
+    width: 30%;
+    margin-left: 14rem;
+}
+
+.btn-purchased {
+    background-color: #0d6efd;
+    color: #fff;
+    margin-right: 60px;
+}
+
+.btn-purchased:hover {
+    background-color: #0b5ed7;
+    cursor: pointer;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.btn-delete:hover {
+    background-color: #bb2d3b;
+    cursor: pointer;
+}
+
+.purchased {
+    text-decoration: line-through;
+    color: grey;
+}

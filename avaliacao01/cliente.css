@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    background-color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.header {
+    background-color: #00679E;
+    display: flex;
+    padding: 17px 4vw;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.5vh;
+    width: 92vw;
+    position: fixed;
+}
+
+.logo{
+    font-size: 4.2vh;
+    color: #FFFFFF;
+}
+
+.menu {
+    display: flex;
+    color: #FFFFFF;
+    font-size: 2.2vh;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 25vw;
+}
+
+ul.menu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.btn {
+    border: none;
+    border-radius: 12px;
+    padding: 11px 9px;
+    min-width: 5.5rem;
+    font-weight: 500;
+    font-size: 1.7vh;
+    cursor: pointer;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 13vw;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.cadastrar {
+    background-color: #FFFFFF;
+    color: #00679E;
+}
+
+.cadastrar:hover {
+    background-color: #eeeeee;
+}
+
+.cliente {
+    background-color: #EB8400;
+    color: #FFFFFF;
+}
+
+.cliente:hover {
+    background-color: #da7c00;
+}
+
+.topo {
+    width: 100%;
+    height: 7vh;
+    background-color:#EB8400;
+}
+
+.back {
+    position: absolute;
+    top: 12vh;
+    left: 2vw;
+    width: 3vw;
+    height: 4vh;
+    transform: scaleX(-1);
+    background-image: url("./img/arrow-blue.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 92%;
+    height: 81vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4vh 4vw;
+    font-size: 2vh;
+}
+
+.page-titulo{
+    font-size: 6vh;
+    font-weight: 700;
+    color: #00679E;
+    margin-top: 10px;
+    margin-bottom: .2vh;
+}
+
+.page-txt {
+    font-size: 2.5vh;
+}
+
+.page-body {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3vh;
+}
+
+.cliente-box {
+    display: flex;
+    height: 18vh;
+    width: 32vw;
+    padding: 2vh 2vw;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 26px rgba(0, 103, 158, 0.25);
+    border-radius: 28px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: start;
+    margin: 3vw 4vw 2vh 4vw;
+}
+
+.cliente-box:hover {
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.cliente-img {
+    width: 8vw;
+    height: 16vh;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+}
+
+.img1 {
+    background-image: url("./img/zezinho.jpg");
+    background-size: 160%;
+    background-position-x: -28px;
+    background-position-y: -35px;
+}
+.img2 {
+    background-image: url("./img/paula.jpg");
+    background-size: 240%;
+    background-position-x: -75px;
+    background-position-y: -45px;
+}
+.img3 {
+    background-image: url("./img/mariana.jpg");
+    background-size: 150%;
+    background-position-x: -25px;
+    background-position-y: -25px;
+}
+.img4 {
+    background-image: url("./img/carlos.jpg");
+    background-size: 188%;
+    background-position-x: center;
+    background-position-y: -10px;
+}
+
+.cliente-txt {
+    width: 68%;
+    font-size: 2.2vh;
+}
+
+.cliente-titulo {
+    font-size: 3vh;
+    margin: 1.5vh 0vw;
+    color: #00679E;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+}
+
+.login-txt {
+    margin-left: .5vw;
+    color: #00679E;
+    text-decoration: underline;
+}

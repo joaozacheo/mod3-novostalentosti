@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="imagem/png" href="shopping-cart.png"/>
+        <title>Lista de Compras</title>
+    </head>
+    <body>
+        <main class="container">
+            <header>
+                <img src="shopping-cart.png">
+                <h1 class="titulo">Lista de Compras</h1>
+                <!--<button type="button" id="btn-new" class="btn-insert">Novo</button>-->
+            </header>
+            <hr>
+            <section class="insert">
+                <div class="insert-prod">
+                    <label for="textproduct">Produto:</label>
+                    <input type="text" id="txtproduct" class="input-product" placeholder="Ex: Leite, pão, margarina, ...">
+                </div>
+                <div class="insert-num">
+                    <label for="txtnumber">Quantidade:</label>
+                    <input type="text" id="txtnumber" class="input-number" placeholder="Ex: 1 pct, 2kg, 3L, ...">
+                </div>
+                <div class="insert-buttons">
+                    <button type="button" id="btn-insert" class="btn-insert">Inserir</button>
+                    <button type="button" id="btn-cancel" class="btn-cancel">Cancelar</button>
+                </div>
+            </section>
+            <hr>
+            <div class="no-itens" id="no-itens">
+                <h3 class="title-no-itens">Nenhum item adicionado :/</h3>
+                <p class="text-no-itens">Adicione itens para criar sua lista</p>
+            </div>
+            <ol id="list" class="list">
+            </ol>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>

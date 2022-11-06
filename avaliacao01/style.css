@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    background-color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.header {
+    background-color: #00679E;
+    display: flex;
+    padding: 17px 4vw;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.5vh;
+    width: 92vw;
+    position: fixed;
+}
+
+.logo{
+    font-size: 4.2vh;
+    color: #FFFFFF;
+}
+
+.menu {
+    display: flex;
+    color: #FFFFFF;
+    font-size: 2.2vh;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 25vw;
+}
+
+ul.menu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.btn {
+    border: none;
+    border-radius: 12px;
+    padding: 11px 9px;
+    min-width: 5.5rem;
+    font-weight: 500;
+    font-size: 1.7vh;
+    cursor: pointer;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 13vw;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.cadastrar {
+    background-color: #FFFFFF;
+    color: #00679E;
+}
+
+.cliente {
+    background-color: #EB8400;
+    color: #FFFFFF;
+}
+
+.cadastrar:hover {
+    background-color: #eeeeee;
+}
+
+.cliente:hover {
+    background-color: #da7c00;
+}
+
+.topo {
+    width: 20%;
+    height: 7vh;
+    background-color:#EB8400;
+}
+
+.container {
+    width: 92%;
+    height: 81vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6vh 4vw;
+}
+
+.promo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 26px rgba(0, 103, 158, 0.25);
+    border-radius: 38px;
+}
+
+.promo-img {
+    height: 100%;
+    width: 35%;
+    border-radius: 38px 0px 0px 38px;
+    background-image: url("./img/promo-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.promo-txt {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 23px;
+    text-align: center;
+}
+
+.promo-titulo {
+    font-size: 8vh;
+    font-weight: 700;
+    color: #00679E;
+    margin: 10px;
+}
+
+.promo-body {
+    font-size: 3.5vh;
+    font-weight: 400;
+    width: 80%;
+}
+
+.promo-btn {
+    font-size: 2vh;
+    padding: 2.2vh 1.5vw;
+    margin: 2vh 0vw;
+    background-color: #EB8400;
+    color: #FFFFFF;
+}
+
+.promo-btn:hover {
+    background-color: #da7c00;
+}
+
+.promo-rules {
+    color: #939393;
+    margin-top: 5vh;
+    font-size: 1.5vh;
+    font-weight: 400;
+    width: 65%;
+}

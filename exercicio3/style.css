@@ -1,0 +1,74 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    max-width: 960px;
+    margin: auto;
+}
+
+.container {
+    display: grid;
+    border: solid 1px;
+    grid-template:
+        'menu menu menu menu'
+        'foto txt1 txt1 txt5'
+        '. txt2 txt2 txt5'
+        '. txt3 txt3 txt5'
+        '. txt4 txt4 txt5'
+        'rodape rodape rodape rodape';
+        padding: 20px;
+        grid-gap: 10px;
+}
+
+.menu {
+    border: solid 1px;
+    grid-area: menu;
+    text-align: center;
+}
+
+.foto {
+    border: solid 1px;
+    grid-area: foto;
+    margin-right: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+.texto1 {
+    border: solid 1px;
+    grid-area: txt1;
+    text-align: justify;
+}
+
+.texto2 {
+    border: solid 1px;
+    grid-area: txt2;
+    text-align: justify;
+}
+
+.texto3 {
+    border: solid 1px;
+    grid-area: txt3;
+    text-align: justify;
+}
+
+.texto4 {
+    border: solid 1px;
+    grid-area: txt4;
+    text-align: justify;
+}
+
+.texto5 {
+    display: flex;
+    border: solid 1px;
+    grid-area: txt5;
+    text-align: justify;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.rodape {
+    border: solid 1px;
+    grid-area: rodape;
+}

@@ -1,0 +1,162 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+.container {
+    width: 50%;
+    height: 35vw;
+    display: grid;
+    grid-template:
+    'titulo titulo'
+    'tela tela'
+    'numeros opera';
+    padding: 20px;
+    border-radius: 20px;
+    grid-gap: 10px;
+    background-color: rgb(173, 181, 190);
+}
+
+.titulo {
+    grid-area: titulo;
+    text-align: center;
+    color: white;
+}
+
+.screen {
+    grid-area: tela;
+    font-size: xxx-large;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 6rem;
+    text-align: right;
+    outline: 0;
+    padding: 0px 20px;
+}
+
+button {
+    border: none;
+    border-radius: 50px;
+    height: 4rem;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(181, 194, 198);
+}
+
+.numeros {
+    grid-area: numeros;
+    display: grid;
+    grid-template:
+    'sete oito nove'
+    'quatro cinco seis'
+    'um dois tres'
+    'nulo ponto apagar';
+    grid-gap: 10px;
+}
+
+.um {
+    grid-area: um;
+}
+
+.dois {
+    grid-area: dois;
+}
+
+.tres {
+    grid-area: tres;
+}
+
+.quatro {
+    grid-area: quatro;
+}
+
+.cinco {
+    grid-area: cinco;
+}
+
+.seis {
+    grid-area: seis;
+}
+
+.sete {
+    grid-area: sete;
+}
+
+.oito {
+    grid-area: oito;
+}
+
+.nove {
+    grid-area: nove;
+}
+
+.zero {
+    grid-area: nulo;
+}
+
+.ponto {
+    grid-area: ponto;
+}
+
+.erase {
+    grid-area: apagar;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background: url("./backspace.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;
+    background-color: #f0f0f0;
+}
+
+.operadores{
+    grid-area: opera;
+    display: grid;
+    grid-template:
+    'soma subtracao'
+    'multi divisao'
+    'igual igual'
+    'delete delete';
+    grid-gap: 10px;
+}
+
+.soma {
+    grid-area: soma;
+}
+
+.subtracao {
+    grid-area: subtracao;
+}
+
+.multi {
+    grid-area: multi;
+}
+
+.divisao {
+    grid-area: divisao;
+}
+
+.equals {
+    grid-area: igual;
+}
+
+.delete {
+    grid-area: delete;
+}
+
+.creditos {
+    text-align: center;
+    color: rgb(113, 117, 123);
+}
